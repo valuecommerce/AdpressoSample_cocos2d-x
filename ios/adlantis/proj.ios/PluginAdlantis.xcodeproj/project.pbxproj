@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9600D66819403655003BB7AE /* AdsAdlantis.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9600D66619403655003BB7AE /* AdsAdlantis.h */; };
+		9600D66919403655003BB7AE /* AdsAdlantis.m in Sources */ = {isa = PBXBuildFile; fileRef = 9600D66719403655003BB7AE /* AdsAdlantis.m */; };
+		D9F34A65193C70A8000C8B4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F34A64193C70A8000C8B4A /* Foundation.framework */; };
+		D9F34A6A193C70A8000C8B4A /* AdsAdlantisBanner.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D9F34A69193C70A8000C8B4A /* AdsAdlantisBanner.h */; };
+		D9F34A6C193C70A8000C8B4A /* AdsAdlantisBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F34A6B193C70A8000C8B4A /* AdsAdlantisBanner.m */; };
+		D9F34AA3193D68DF000C8B4A /* libadlantis_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F34AA2193D593F000C8B4A /* libadlantis_ios_sdk.a */; };
+		D9F34AA5193D68FB000C8B4A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F34AA4193D68FB000C8B4A /* CoreTelephony.framework */; };
+		D9F34AF8193F0F47000C8B4A /* AdsAdlantisInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F34AF7193F0F47000C8B4A /* AdsAdlantisInterstitial.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9F34A5F193C70A8000C8B4A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D9F34A6A193C70A8000C8B4A /* AdsAdlantisBanner.h in CopyFiles */,
+				9600D66819403655003BB7AE /* AdsAdlantis.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9600D66619403655003BB7AE /* AdsAdlantis.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = AdsAdlantis.h; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; wrapsLines = 1; };
+		9600D66719403655003BB7AE /* AdsAdlantis.m */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = AdsAdlantis.m; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; wrapsLines = 1; };
+		D9F34A61193C70A8000C8B4A /* libPluginAdlantis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPluginAdlantis.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F34A64193C70A8000C8B4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9F34A68193C70A8000C8B4A /* PluginAdlantis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PluginAdlantis-Prefix.pch"; sourceTree = "<group>"; };
+		D9F34A69193C70A8000C8B4A /* AdsAdlantisBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdsAdlantisBanner.h; sourceTree = "<group>"; };
+		D9F34A6B193C70A8000C8B4A /* AdsAdlantisBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsAdlantisBanner.m; sourceTree = "<group>"; };
+		D9F34A72193C70A8000C8B4A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D9F34A75193C70A8000C8B4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9F34A9A193D593F000C8B4A /* AdLantisConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdLantisConversion.h; sourceTree = "<group>"; };
+		D9F34AA0193D593F000C8B4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Adlantis.strings; sourceTree = "<group>"; };
+		D9F34AA1193D593F000C8B4A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Adlantis.strings; sourceTree = "<group>"; };
+		D9F34AA2193D593F000C8B4A /* libadlantis_ios_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libadlantis_ios_sdk.a; sourceTree = "<group>"; };
+		D9F34AA4193D68FB000C8B4A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D9F34AF6193F0F47000C8B4A /* AdsAdlantisInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsAdlantisInterstitial.h; sourceTree = "<group>"; };
+		D9F34AF7193F0F47000C8B4A /* AdsAdlantisInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsAdlantisInterstitial.m; sourceTree = "<group>"; };
+		F2F0F18B1DCC23AE00FBFF18 /* AdpressoAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdpressoAdManager.h; sourceTree = "<group>"; };
+		F2F0F18C1DCC23AE00FBFF18 /* AdpressoInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdpressoInterstitialAd.h; sourceTree = "<group>"; };
+		F2F0F18D1DCC23AE00FBFF18 /* AdpressoTargetingParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdpressoTargetingParameters.h; sourceTree = "<group>"; };
+		F2F0F18E1DCC23AE00FBFF18 /* AdpressoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdpressoView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9F34A5E193C70A8000C8B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F34AA5193D68FB000C8B4A /* CoreTelephony.framework in Frameworks */,
+				D9F34A65193C70A8000C8B4A /* Foundation.framework in Frameworks */,
+				D9F34AA3193D68DF000C8B4A /* libadlantis_ios_sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9F34A58193C70A8000C8B4A = {
+			isa = PBXGroup;
+			children = (
+				D9F34A98193D593F000C8B4A /* adlantis_sdk */,
+				9600D66619403655003BB7AE /* AdsAdlantis.h */,
+				9600D66719403655003BB7AE /* AdsAdlantis.m */,
+				D9F34A69193C70A8000C8B4A /* AdsAdlantisBanner.h */,
+				D9F34A6B193C70A8000C8B4A /* AdsAdlantisBanner.m */,
+				D9F34AF6193F0F47000C8B4A /* AdsAdlantisInterstitial.h */,
+				D9F34AF7193F0F47000C8B4A /* AdsAdlantisInterstitial.m */,
+				D9F34A63193C70A8000C8B4A /* Frameworks */,
+				D9F34A68193C70A8000C8B4A /* PluginAdlantis-Prefix.pch */,
+				D9F34A62193C70A8000C8B4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9F34A62193C70A8000C8B4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9F34A61193C70A8000C8B4A /* libPluginAdlantis.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9F34A63193C70A8000C8B4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9F34AA4193D68FB000C8B4A /* CoreTelephony.framework */,
+				D9F34A64193C70A8000C8B4A /* Foundation.framework */,
+				D9F34A72193C70A8000C8B4A /* XCTest.framework */,
+				D9F34A75193C70A8000C8B4A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9F34A98193D593F000C8B4A /* adlantis_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				F2F0F18B1DCC23AE00FBFF18 /* AdpressoAdManager.h */,
+				F2F0F18C1DCC23AE00FBFF18 /* AdpressoInterstitialAd.h */,
+				F2F0F18D1DCC23AE00FBFF18 /* AdpressoTargetingParameters.h */,
+				F2F0F18E1DCC23AE00FBFF18 /* AdpressoView.h */,
+				D9F34A9A193D593F000C8B4A /* AdLantisConversion.h */,
+				D9F34A9F193D593F000C8B4A /* Adlantis.strings */,
+				D9F34AA2193D593F000C8B4A /* libadlantis_ios_sdk.a */,
+			);
+			path = adlantis_sdk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9F34A60193C70A8000C8B4A /* PluginAdlantis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F34A84193C70A8000C8B4A /* Build configuration list for PBXNativeTarget "PluginAdlantis" */;
+			buildPhases = (
+				D9F34A5D193C70A8000C8B4A /* Sources */,
+				D9F34A5E193C70A8000C8B4A /* Frameworks */,
+				D9F34A5F193C70A8000C8B4A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PluginAdlantis;
+			productName = PluginAdlantis;
+			productReference = D9F34A61193C70A8000C8B4A /* libPluginAdlantis.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9F34A59193C70A8000C8B4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Atlantis Inc.";
+			};
+			buildConfigurationList = D9F34A5C193C70A8000C8B4A /* Build configuration list for PBXProject "PluginAdlantis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = D9F34A58193C70A8000C8B4A;
+			productRefGroup = D9F34A62193C70A8000C8B4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9F34A60193C70A8000C8B4A /* PluginAdlantis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9F34A5D193C70A8000C8B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F34AF8193F0F47000C8B4A /* AdsAdlantisInterstitial.m in Sources */,
+				D9F34A6C193C70A8000C8B4A /* AdsAdlantisBanner.m in Sources */,
+				9600D66919403655003BB7AE /* AdsAdlantis.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9F34A9F193D593F000C8B4A /* Adlantis.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F34AA0193D593F000C8B4A /* en */,
+				D9F34AA1193D593F000C8B4A /* ja */,
+			);
+			name = Adlantis.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9F34A82193C70A8000C8B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9F34A83193C70A8000C8B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9F34A85193C70A8000C8B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/PluginAdlantis.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PluginAdlantis-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../protocols/platform/ios",
+					"$(SRCROOT)/../../../protocols/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adlantis_sdk",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D9F34A86193C70A8000C8B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/PluginAdlantis.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PluginAdlantis-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../protocols/platform/ios",
+					"$(SRCROOT)/../../../protocols/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adlantis_sdk",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9F34A5C193C70A8000C8B4A /* Build configuration list for PBXProject "PluginAdlantis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F34A82193C70A8000C8B4A /* Debug */,
+				D9F34A83193C70A8000C8B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F34A84193C70A8000C8B4A /* Build configuration list for PBXNativeTarget "PluginAdlantis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F34A85193C70A8000C8B4A /* Debug */,
+				D9F34A86193C70A8000C8B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9F34A59193C70A8000C8B4A /* Project object */;
+}
